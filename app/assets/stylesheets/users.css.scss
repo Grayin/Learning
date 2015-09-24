@@ -1,8 +1,16 @@
-.profile-image {
+.user-index-avatar {
   display: inline-block;
   border: 2px solid white;
   border-radius: 50%;
-  box-shadow: 0px 3px 0px 2px #101010;
+  box-shadow: 0px 3px 1px 2px #101010;
+}
+.user-show-avatar {
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: 0px 3px 1px 2px #101010;
+  height: 128px;
+  width: 128px;
 }
 .job-title-icon {
   display: inline-block;
@@ -27,4 +35,11 @@
 .well.contact-info {
   background-color: #5bc0de;
   border-color: #46b8da;
+}
+/* Users Index Page Styles */
+.user-index-avatar {
+  border-radius: 50%;
+}
+.well.white-bg {
+  background-color: white;
 }
